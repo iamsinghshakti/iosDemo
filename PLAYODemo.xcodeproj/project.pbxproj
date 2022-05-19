@@ -17,6 +17,16 @@
 		8530CABD28362860001D6BFB /* PLAYODemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CABC28362860001D6BFB /* PLAYODemoTests.swift */; };
 		8530CAC728362860001D6BFB /* PLAYODemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CAC628362860001D6BFB /* PLAYODemoUITests.swift */; };
 		8530CAC928362860001D6BFB /* PLAYODemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CAC828362860001D6BFB /* PLAYODemoUITestsLaunchTests.swift */; };
+		8530CADA28362F57001D6BFB /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CAD828362F57001D6BFB /* NewsVC.swift */; };
+		8530CADB28362F57001D6BFB /* NewsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8530CAD928362F57001D6BFB /* NewsVC.xib */; };
+		8530CADE28363301001D6BFB /* NewsTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CADC28363301001D6BFB /* NewsTC.swift */; };
+		8530CADF28363301001D6BFB /* NewsTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8530CADD28363301001D6BFB /* NewsTC.xib */; };
+		8530CAE228363600001D6BFB /* ServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CAE128363600001D6BFB /* ServiceHandler.swift */; };
+		8530CAE4283637BD001D6BFB /* RequestGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CAE3283637BD001D6BFB /* RequestGenerator.swift */; };
+		8530CAE628363D4E001D6BFB /* NewsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CAE528363D4E001D6BFB /* NewsVM.swift */; };
+		8530CAE828363D5A001D6BFB /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CAE728363D5A001D6BFB /* NewsModel.swift */; };
+		8530CAEA2836417B001D6BFB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CAE92836417B001D6BFB /* Extension.swift */; };
+		8530CAEC28364710001D6BFB /* Apputility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8530CAEB28364710001D6BFB /* Apputility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		8530CAC228362860001D6BFB /* PLAYODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLAYODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8530CAC628362860001D6BFB /* PLAYODemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLAYODemoUITests.swift; sourceTree = "<group>"; };
 		8530CAC828362860001D6BFB /* PLAYODemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLAYODemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8530CAD828362F57001D6BFB /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
+		8530CAD928362F57001D6BFB /* NewsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsVC.xib; sourceTree = "<group>"; };
+		8530CADC28363301001D6BFB /* NewsTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTC.swift; sourceTree = "<group>"; };
+		8530CADD28363301001D6BFB /* NewsTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTC.xib; sourceTree = "<group>"; };
+		8530CAE128363600001D6BFB /* ServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHandler.swift; sourceTree = "<group>"; };
+		8530CAE3283637BD001D6BFB /* RequestGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestGenerator.swift; sourceTree = "<group>"; };
+		8530CAE528363D4E001D6BFB /* NewsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVM.swift; sourceTree = "<group>"; };
+		8530CAE728363D5A001D6BFB /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		8530CAE92836417B001D6BFB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8530CAEB28364710001D6BFB /* Apputility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apputility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +121,12 @@
 		8530CAA12836285F001D6BFB /* PLAYODemo */ = {
 			isa = PBXGroup;
 			children = (
+				8530CAE0283635CF001D6BFB /* Helpers */,
+				8530CAD728362F20001D6BFB /* View */,
+				8530CAD628362F07001D6BFB /* Model */,
+				8530CAD528362EF7001D6BFB /* ViewModel */,
 				8530CAA22836285F001D6BFB /* AppDelegate.swift */,
 				8530CAA42836285F001D6BFB /* SceneDelegate.swift */,
-				8530CAA62836285F001D6BFB /* ViewController.swift */,
 				8530CAA82836285F001D6BFB /* Main.storyboard */,
 				8530CAAE28362860001D6BFB /* Assets.xcassets */,
 				8530CAB028362860001D6BFB /* LaunchScreen.storyboard */,
@@ -128,6 +151,45 @@
 				8530CAC828362860001D6BFB /* PLAYODemoUITestsLaunchTests.swift */,
 			);
 			path = PLAYODemoUITests;
+			sourceTree = "<group>";
+		};
+		8530CAD528362EF7001D6BFB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8530CAE528363D4E001D6BFB /* NewsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8530CAD628362F07001D6BFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8530CAE728363D5A001D6BFB /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8530CAD728362F20001D6BFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8530CAD828362F57001D6BFB /* NewsVC.swift */,
+				8530CAD928362F57001D6BFB /* NewsVC.xib */,
+				8530CAA62836285F001D6BFB /* ViewController.swift */,
+				8530CADC28363301001D6BFB /* NewsTC.swift */,
+				8530CADD28363301001D6BFB /* NewsTC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8530CAE0283635CF001D6BFB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8530CAE128363600001D6BFB /* ServiceHandler.swift */,
+				8530CAE3283637BD001D6BFB /* RequestGenerator.swift */,
+				8530CAE92836417B001D6BFB /* Extension.swift */,
+				8530CAEB28364710001D6BFB /* Apputility.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8530CAB228362860001D6BFB /* LaunchScreen.storyboard in Resources */,
+				8530CADB28362F57001D6BFB /* NewsVC.xib in Resources */,
 				8530CAAF28362860001D6BFB /* Assets.xcassets in Resources */,
+				8530CADF28363301001D6BFB /* NewsTC.xib in Resources */,
 				8530CAAA2836285F001D6BFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +325,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8530CAEC28364710001D6BFB /* Apputility.swift in Sources */,
 				8530CAAD2836285F001D6BFB /* PLAYODemo.xcdatamodeld in Sources */,
+				8530CAE4283637BD001D6BFB /* RequestGenerator.swift in Sources */,
+				8530CAE228363600001D6BFB /* ServiceHandler.swift in Sources */,
 				8530CAA72836285F001D6BFB /* ViewController.swift in Sources */,
+				8530CAEA2836417B001D6BFB /* Extension.swift in Sources */,
+				8530CAE828363D5A001D6BFB /* NewsModel.swift in Sources */,
 				8530CAA32836285F001D6BFB /* AppDelegate.swift in Sources */,
 				8530CAA52836285F001D6BFB /* SceneDelegate.swift in Sources */,
+				8530CADA28362F57001D6BFB /* NewsVC.swift in Sources */,
+				8530CADE28363301001D6BFB /* NewsTC.swift in Sources */,
+				8530CAE628363D4E001D6BFB /* NewsVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,8 +511,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rapidsoft Technologies Private Limited";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NSRX3692Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PLAYODemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,8 +527,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vts.watsoo.PLAYODemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyggs.nefa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NYGGS_nefa;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,8 +541,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Rapidsoft Technologies Private Limited";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NSRX3692Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PLAYODemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,8 +557,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vts.watsoo.PLAYODemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nyggs.nefa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NYGGS_nefa;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
